@@ -3,10 +3,6 @@
 <head>
   <title>UIUC POOP</title>
   
-		<!-- Scripts -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="//js/jquery-2.1.1.min.js"><\/script>')</script>
-		<script src="//js/global.js?v=ytEawujPk7XzkKtfIXzUItZz24b22P4aTQBlun3PRik1"></script>
 
 </head>
 <body>
