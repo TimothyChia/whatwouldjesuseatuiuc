@@ -1,4 +1,10 @@
-app.get('/', function (req, res) {
-  res.end('Hi there!')
-})
-app.listen(3000)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hi there</title>
+</head>
+<body>
+  This is a page
+  a simple page
+</body>
+</html>
