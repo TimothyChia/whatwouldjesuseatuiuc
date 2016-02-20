@@ -19,7 +19,7 @@
     });
 </script>
 
-<form method="post" action="http://wwje.azurewebsites.net" id="MyHousingForm"> //form
+<form method="post" action="http://www.housing.illinois.edu/dining/menus/dining-halls" id="MyHousingForm"> //form
 
 <input name="pagebody_0$txtServingDate" value="2/20/2016" id="txtServingDate" tabindex="2" class="form-control hasDatepicker" type="text"> //date
 
