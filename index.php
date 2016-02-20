@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Hi there</title>
+</head>
 <body>
 
 <p>bla form.</p>
