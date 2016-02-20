@@ -45,6 +45,22 @@ input[type=text]:focus, textarea:focus {
     height: 30px;
 }
 
+.class {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 body {
 font-family: 'Asap', sans-serif;
 }
