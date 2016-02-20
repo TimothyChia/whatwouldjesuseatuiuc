@@ -45,7 +45,7 @@ input[type=text]:focus, textarea:focus {
     height: 30px;
 }
 
-.class {
+.iframe {
     width: 100%;
     height: 100%;
     overflow: auto;
