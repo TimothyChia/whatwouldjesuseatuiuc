@@ -3,6 +3,7 @@
 <head>
   <title>Housing Form</title>
 </head>
+<link rel="stylesheet" type="text/css" href="//wwje.azurewebsites.net/looks.css" />
 <body>
 
 <p>This works!</p>
@@ -19,9 +20,10 @@
 	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAljuvT+gt9sgUnEE1TmJPelWSHE2RXo8/7qyel4z+uwDmS/tYTfV6F4P9ytm+uBq3Oh9DmNqfhtvp0A+P2a1qVCbnMIPP5T4ErjZ5w5ejlpTlSnCSYCDKMPW6tER5EH5YTU/RMGCO28nRolFRITlJPZ7+Uf8k9kfSWslLyENoaAtZw6htKKHrAZ0Z/A8f+XAcl30FWSNVwf86kY7NiCt2s7/ppmIA==" />
 </div>
 
+Date:
+<input name="pagebody_0$txtServingDate" value="2/20/2016" id="txtServingDate" tabindex="2" class="form-control hasDatepicker" type="text">
 
-<input name="pagebody_0$txtServingDate" value="2/20/2016" id="txtServingDate" tabindex="2" class="form-control hasDatepicker" type="text"> //date
-
+Area:
 <select name="pagebody_0$ddlLocations" id="pagebody_0_ddlLocations" class="form-control">
 	<option value="Busey-Evans Serving">Busey-Evans</option>
 	<option value="FAR Serving">FAR</option>
