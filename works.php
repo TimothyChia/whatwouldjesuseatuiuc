@@ -37,6 +37,6 @@ Area:
 
 <input name="pagebody_0$btnSubmit" value="Select" id="pagebody_0_btnSubmit" class="btn" type="submit">
 </br>
-<iframe height="100% name="iframe" class="iframe" src="http://www.housing.illinois.edu/dining/menus/dining-halls"></iframe>
+<iframe name="iframe" class="iframe" src="http://www.housing.illinois.edu/dining/menus/dining-halls">  height="100% </iframe>
 </body>
 </html>
