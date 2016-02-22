@@ -22,7 +22,14 @@
 </div>
 
 Date:
-<input name="pagebody_0$txtServingDate" value="2/20/2016" id="txtServingDate" tabindex="2" class="form-control hasDatepicker" type="text">
+<script>
+var newDate = new Date();
+newDate.setDate(newDate.getDate() + 1);
+//insert it via javascript
+document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear();
+</script>
+
+<input name="pagebody_0$txtServingDate" value="<span id="displayDate"></span>" id="txtServingDate" tabindex="2" type="text">
 
 Area:
 <select name="pagebody_0$ddlLocations" id="pagebody_0_ddlLocations" class="form-control">
