@@ -38,7 +38,7 @@ var today = year + "-" + month + "-" + day;
 document.getElementById('theDate').value = today;
 </script>
 
-<input name="pagebody_0$txtServingDate" value="theDate" id="txtServingDate" tabindex="2" type="date">
+<input name="pagebody_0$txtServingDate" value="theDate" id="theDate" tabindex="2" type="date">
 
 Area:
 <select name="pagebody_0$ddlLocations" id="pagebody_0_ddlLocations" class="form-control">
