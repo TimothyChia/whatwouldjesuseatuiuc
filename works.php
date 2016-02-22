@@ -23,13 +23,22 @@
 
 Date:
 <script>
-var newDate = new Date();
-newDate.setDate(newDate.getDate() + 1);
-//insert it via javascript
-document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear();
+var date = new Date();
+
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var year = date.getFullYear();
+
+if (month < 10) month = "0" + month;
+if (day < 10) day = "0" + day;
+
+var today = year + "-" + month + "-" + day;
+
+
+document.getElementById('theDate').value = today;
 </script>
 
-<input name="pagebody_0$txtServingDate" value="<span id="displayDate"></span>" id="txtServingDate" tabindex="2" type="text">
+<input name="pagebody_0$txtServingDate" value="theDate" id="txtServingDate" tabindex="2" type="date">
 
 Area:
 <select name="pagebody_0$ddlLocations" id="pagebody_0_ddlLocations" class="form-control">
